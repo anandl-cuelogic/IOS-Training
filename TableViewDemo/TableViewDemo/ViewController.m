@@ -15,13 +15,15 @@
 @implementation ViewController
 {
     NSArray *tableData;
+    NSArray *thumnail;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Initialize table data
-    tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];}
-
+    tableData = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", nil];
+    thumnail = [NSArray arrayWithObjects:@"lock_icon.png", @"Favorite-selected.png", @"mobile_icon.png",@"radio_active.png",@"radio_disabled.png",@"Favorite-selected.png",@"radio_disabled.png", @"Favorite-selected.png", @"Favorite-selected.png",@"Favorite-selected.png", @"Favorite-selected.png", @"Favorite-selected.png",nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -43,7 +45,7 @@
     }
     
     cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:@"Favorite-selected.png"];
+    cell.imageView.image =[UIImage imageNamed:[thumnail objectAtIndex:indexPath.row]];
     return cell;
 }
 @end

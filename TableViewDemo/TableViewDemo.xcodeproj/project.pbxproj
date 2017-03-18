@@ -16,6 +16,12 @@
 		90731AC11E7BAFE6005D519C /* TableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90731AC01E7BAFE6005D519C /* TableViewDemoTests.m */; };
 		90731ACC1E7BAFE6005D519C /* TableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90731ACB1E7BAFE6005D519C /* TableViewDemoUITests.m */; };
 		9073C12B1E7CFE5E0050F0A0 /* Favorite-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9073C12A1E7CFE5E0050F0A0 /* Favorite-selected.png */; };
+		9073C1321E7D06BF0050F0A0 /* lock_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9073C12C1E7D06BF0050F0A0 /* lock_icon.png */; };
+		9073C1331E7D06BF0050F0A0 /* missed_check_in_alert_sent.png in Resources */ = {isa = PBXBuildFile; fileRef = 9073C12D1E7D06BF0050F0A0 /* missed_check_in_alert_sent.png */; };
+		9073C1341E7D06BF0050F0A0 /* mobile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9073C12E1E7D06BF0050F0A0 /* mobile_icon.png */; };
+		9073C1351E7D06BF0050F0A0 /* objective-c-programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9073C12F1E7D06BF0050F0A0 /* objective-c-programming.pdf */; };
+		9073C1361E7D06BF0050F0A0 /* radio_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9073C1301E7D06BF0050F0A0 /* radio_active.png */; };
+		9073C1371E7D06BF0050F0A0 /* radio_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 9073C1311E7D06BF0050F0A0 /* radio_disabled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		90731ACB1E7BAFE6005D519C /* TableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoUITests.m; sourceTree = "<group>"; };
 		90731ACD1E7BAFE6005D519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9073C12A1E7CFE5E0050F0A0 /* Favorite-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Favorite-selected.png"; sourceTree = "<group>"; };
+		9073C12C1E7D06BF0050F0A0 /* lock_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_icon.png; sourceTree = "<group>"; };
+		9073C12D1E7D06BF0050F0A0 /* missed_check_in_alert_sent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missed_check_in_alert_sent.png; sourceTree = "<group>"; };
+		9073C12E1E7D06BF0050F0A0 /* mobile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile_icon.png; sourceTree = "<group>"; };
+		9073C12F1E7D06BF0050F0A0 /* objective-c-programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "objective-c-programming.pdf"; sourceTree = "<group>"; };
+		9073C1301E7D06BF0050F0A0 /* radio_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_active.png; sourceTree = "<group>"; };
+		9073C1311E7D06BF0050F0A0 /* radio_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_disabled.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,12 @@
 		90731AA61E7BAFE6005D519C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9073C12C1E7D06BF0050F0A0 /* lock_icon.png */,
+				9073C12D1E7D06BF0050F0A0 /* missed_check_in_alert_sent.png */,
+				9073C12E1E7D06BF0050F0A0 /* mobile_icon.png */,
+				9073C12F1E7D06BF0050F0A0 /* objective-c-programming.pdf */,
+				9073C1301E7D06BF0050F0A0 /* radio_active.png */,
+				9073C1311E7D06BF0050F0A0 /* radio_disabled.png */,
 				9073C12A1E7CFE5E0050F0A0 /* Favorite-selected.png */,
 				90731AA71E7BAFE6005D519C /* main.m */,
 			);
@@ -251,8 +269,14 @@
 			files = (
 				90731AB61E7BAFE6005D519C /* LaunchScreen.storyboard in Resources */,
 				90731AB31E7BAFE6005D519C /* Assets.xcassets in Resources */,
+				9073C1361E7D06BF0050F0A0 /* radio_active.png in Resources */,
+				9073C1341E7D06BF0050F0A0 /* mobile_icon.png in Resources */,
+				9073C1321E7D06BF0050F0A0 /* lock_icon.png in Resources */,
 				9073C12B1E7CFE5E0050F0A0 /* Favorite-selected.png in Resources */,
 				90731AB11E7BAFE6005D519C /* Main.storyboard in Resources */,
+				9073C1351E7D06BF0050F0A0 /* objective-c-programming.pdf in Resources */,
+				9073C1331E7D06BF0050F0A0 /* missed_check_in_alert_sent.png in Resources */,
+				9073C1371E7D06BF0050F0A0 /* radio_disabled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
